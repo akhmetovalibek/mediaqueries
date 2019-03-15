@@ -1,0 +1,23 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.column{
+	width: 200px;
+	height: 400px;
+	background: green;
+}
+
+
+@media (max-width: 1000px) {
+	.column{
+		background: red;
+	}
+}
